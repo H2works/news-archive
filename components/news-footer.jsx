@@ -10,7 +10,7 @@ export function NewsFooter() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <Newspaper className="h-6 w-6 text-blue-600" />
-              <span className="font-bold text-gray-900">Fastnews.com</span>
+              <span className="font-bold text-gray-900">NewsArchive</span>
             </div>
             <p className="text-gray-600 text-sm">複数のニュースソースから最新情報を収集し、整理してお届けします。</p>
           </div>
@@ -50,6 +50,11 @@ export function NewsFooter() {
                 </Link>
               </li>
               <li>
+                <Link href="/privacy" className="hover:text-blue-600">
+                  プライバシーポリシー
+                </Link>
+              </li>
+              <li>
                 <Link href="/contact" className="hover:text-blue-600">
                   お問い合わせ
                 </Link>
@@ -58,7 +63,7 @@ export function NewsFooter() {
           </div>
         </div>
         <Separator className="my-6" />
-        <div className="text-center text-sm text-gray-500">© 2025 Fastnews.com All rights reserved.</div>
+        <div className="text-center text-sm text-gray-500">© 2025 NewsArchive All rights reserved.</div>
       </div>
     </footer>
   )

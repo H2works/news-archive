@@ -10,7 +10,7 @@ export function NewsHeader() {
           <div className="flex items-center gap-2">
             <Newspaper className="h-8 w-8 text-blue-600" />
             <h1 className="text-2xl font-bold text-gray-900">
-              <Link href="/">Fastnews.com</Link>
+              <Link href="/">NewsArchive</Link>
             </h1>
           </div>
           <nav className="hidden md:flex items-center gap-6">
