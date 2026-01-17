@@ -7,7 +7,9 @@ import { Badge } from "@/components/ui/badge"
 export function NewsSources({ sources }) {
   return (
     <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-2">
-      {sources.map((source, index) => (
+      {sources
+        .filter((source) => source.articles && source.articles.length > 0) // ここで空チェック
+        .map((source, index) => (
         <Card key={index} className="hover:shadow-md transition-shadow h-[400px] flex flex-col">
           <CardHeader className="pb-3 flex-shrink-0">
             <div className="flex items-center justify-between">
