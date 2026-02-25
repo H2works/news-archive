@@ -42,24 +42,43 @@ export function NewsFooter() {
             */}
           </div>
           <div>
-            <h3 className="font-semibold text-gray-900 mb-4">リンク</h3>
-            <ul className="space-y-2 text-sm text-gray-600">
-              <li>
-                <Link href="/about" className="hover:text-blue-600">
-                  私たちについて
-                </Link>
-              </li>
-              <li>
-                <Link href="/privacy" className="hover:text-blue-600">
-                  プライバシーポリシー
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact" className="hover:text-blue-600">
-                  お問い合わせ
-                </Link>
-              </li>
-            </ul>
+            <div className="flex flex-col md:flex-row md:space-x-12">
+              <div>
+                <h3 className="font-semibold text-gray-900 mb-4">リンク</h3>
+                <ul className="space-y-2 text-sm text-gray-600">
+                  <li>
+                    <Link href="/about" className="hover:text-blue-600">
+                      私たちについて
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/privacy" className="hover:text-blue-600">
+                      プライバシーポリシー
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/contact" className="hover:text-blue-600">
+                      お問い合わせ
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+              <div className="mt-6 md:mt-0">
+                <h3 className="font-semibold text-gray-900 mb-4">関連サイト</h3>
+                <ul className="space-y-2 text-sm text-gray-600">
+                  <li>
+                    <a href="https://domain-tools.h2works.xyz/" className="hover:text-blue-600" target="_blank" rel="noopener noreferrer">
+                      ドメインツール
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://template-library.h2works.xyz/" className="hover:text-blue-600" target="_blank" rel="noopener noreferrer">
+                      Template Library
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
         <Separator className="my-6" />
