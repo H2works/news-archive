@@ -5,8 +5,6 @@ export const metadata = {
   description: "ニュース記事の検索結果を表示します。",
 }
 
-export const revalidate = 3600
-
 export default function SearchPage() {
   return <SearchPageClient />
 }
