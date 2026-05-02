@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Background -->
+  <rect width="32" height="32" rx="6" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+  <!-- N: left stem -->
+  <line x1="7" y1="6" x2="7" y2="24" stroke="#1e40af" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- N: diagonal -->
+  <line x1="7" y1="6" x2="25" y2="24" stroke="#1e40af" stroke-width="2.2" stroke-linecap="round" opacity="0.85"/>
+  <!-- N: right stem -->
+  <line x1="25" y1="6" x2="25" y2="24" stroke="#1e40af" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Underline accent -->
+  <rect x="5.5" y="27" width="21" height="2.5" rx="1.25" fill="#2563eb"/>
+</svg>
